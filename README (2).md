@@ -1,9 +1,0 @@
-strategy,cost_model,ann_ret,Sharpe,NW_t_mean,ann_turnover,beta_vs_10Y_abs_max,R2_vs_10Y_max,verdict
-projection_dv01_quarterly_smooth,CS_lagged,0.0007,0.649,2.83,0.74,0.0009,0.0041,pass
-projection_dv01_quarterly_smooth,AR_lagged,0.0003,0.308,1.64,0.74,0.0009,0.0041,pass
-projection_dv01_quarterly_smooth,Fixed5bp,0.0003,0.31,1.63,0.74,0.0009,0.0041,pass
-projection_dv01_quarterly_smooth,Fixed10bp,-0.0001,-0.058,,0.74,0.0009,0.0041,fail
-butterfly_quarterly_smooth,CS_lagged,0.001,0.713,3.19,1.36,0.0008,0.003,pass_dynamic
-butterfly_quarterly_smooth,AR_lagged,0.0004,0.309,1.87,1.36,0.0008,0.003,pass_dynamic
-butterfly_quarterly_smooth,Fixed5bp,0.0004,0.259,1.39,1.36,0.0008,0.003,fail_gate
-butterfly_quarterly_smooth,Fixed10bp,-0.0003,-0.224,,1.36,0.0008,0.003,fail
